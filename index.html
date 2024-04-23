@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <input id="nama-depan" name="nama depan" placeholder="Nama depan">
+    <input id="nama-belakang" name="nama belakang" placeholder="Nama belakang">
+    <button onclick="peringatan()">Ini adalah tombol</button>
+
+    <script>
+        function peringatan(){
+            let namaDepan = document.getElementById("nama-depan").value
+            let namaBelakang = document.getElementById("nama-belakang").value
+            console.log(`${namaDepan} ${namaBelakang}`);
+        }
+    </script>
+</body>
+</html>
